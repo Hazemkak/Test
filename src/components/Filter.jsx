@@ -3,8 +3,6 @@ import "../styles/Filter.css";
 import Dropdown from "./Dropdown";
 import { useSelector, useDispatch } from "react-redux";
 import { getFilterCities, getFilterStates } from "../store";
-import IconButton from "@mui/material/IconButton";
-import { MdClear } from "react-icons/md";
 
 function Filter(props) {
   const selector = useSelector((state) => state.filter);

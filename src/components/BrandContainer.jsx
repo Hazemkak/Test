@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Filter.css";
 import "../styles/Product.css";
 import ProductItem from "./ProductItem";
-import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 
 function BrandContainer(props) {
   const { items, productName, st, city } = props;
