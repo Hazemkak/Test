@@ -1,0 +1,55 @@
+.mainProductTitle{
+    color:#e2e2e2;
+    margin-top: -7px;
+    font-weight: bolder;
+}
+
+.mainContainerProd2{
+    display: flex;
+}
+
+
+.spanFilter{
+    float: right;
+}
+
+@media only screen and (min-width: 960px) {
+    .spanFilter {
+      display: none;
+    }
+  }
+.subProductTitle{
+    color:#919191 ;
+    font-weight: 500;
+}
+
+.titlesProductContainer{
+    margin-left: 38px;
+}
+
+.productName{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.productsBox{
+    background-color: #131313;
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: -15px;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    width: 70vw;
+}
+.productsBox::-webkit-scrollbar{
+    display: none;
+}
+
+.leftArrowDiv{
+    margin: auto;
+    position:static;
+    display: block;
+}
+

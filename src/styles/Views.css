@@ -1,0 +1,33 @@
+.mainView{
+    background-color: #292929;
+    min-height: 100vh;
+    padding: 63px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+body{
+    background-color: #292929;
+}
+
+@media only screen and (max-width: 960px) {
+    .filterGrid {
+      display: none;
+    }
+    .productGrid{
+        margin: auto;
+    }
+  }
+
+.filterGrid{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.productGridFilter{
+    
+}
+
+.productGrid{
+    grid-column-start: 2;
+    grid-column-end: 6;
+}

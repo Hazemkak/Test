@@ -1,0 +1,4 @@
+export const FILTER_PROD='FILTER_PROD';
+export const FILTER_CITY='FILTER_CITY';
+export const FILTER_STATE='FILTER_STATE';
+export const UPDATE_FILTER='UPDATE_FILTER';

@@ -1,0 +1,33 @@
+.mainContainerFilter{
+    background-color: #131313;
+    border-radius: 7px;
+    padding: 18px 20px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.titleFilter{
+    color: #a5a5a5;
+    font-weight: lighter;
+}
+
+.filterMob{
+    padding: 15px;
+    background-color: #292929;
+    margin:auto
+}
+
+.hrFilter{
+    color: #cbcbcb;
+    border: none;
+    background-color: #cbcbcb;
+    border-radius: 5px;
+    height: 0.1px;
+    margin-bottom:30px;
+}
+
+.arrowStyle{
+    color: #fff;
+    margin: auto;
+    padding-left: 20px;
+}
