@@ -41,7 +41,7 @@ export const fetchProduct=()=>{
         dispatch(loadingProduct());
         Axios({
             method:'GET',
-            url:'http://assessment-edvora.herokuapp.com/',
+            url:'https://assessment-edvora.herokuapp.com/',
             headers:{
                 'Content-Type':'application/json'
             },

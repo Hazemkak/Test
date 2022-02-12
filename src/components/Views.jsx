@@ -13,6 +13,7 @@ function View() {
       dispatch(fetchProduct());
     },[]);
 
+
     const [prod,setProd]=useState('');
     const [st,setSt]=useState('');
     const [city,setCity]=useState('');
